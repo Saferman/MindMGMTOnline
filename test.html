@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>图片闪烁</title>
+	</head>
+	<body>
+		<img src="img/Dusty.png" id="jCaes" title="Dusty" />
+		<br/>
+		<button id="flash" style=" background: mediumvioletred; color: aqua; height: 40px;">图片闪烁</button>
+		<img id="img" src="./img/Bill.png" >
+	</body>
+	<script>
+		var item = document.getElementById("flash");
+		item.addEventListener("mouseover", func, false);
+		item.addEventListener("mouseout", func1, false);
+
+		function func()
+		{  // not needed since item is already global, 
+		// I am assuming this is here just because it's sample code?
+		// var item = document.getElementById("button"); 
+		item.setAttribute("style", "background-color:blue;")
+		}
+
+		function func1()
+		{  
+		item.setAttribute("style", "background-color:green;")
+		}
+	</script>
+		<script type="text/javascript">
+		var img =document.getElementById("img");
+		var flash_btn = document.getElementById("flash");
+		//设置按钮触发事件
+		flash_btn.addEventListener("click",function(){
+			//调用setInterval()函数,每隔0.25秒隐藏
+			setInterval(function(){
+				img.style.opacity = 0.4;  //图片隐藏
+			},250)
+			//再次调用setInterval()函数,每隔0.5秒显示 时间差就可以形成图片闪烁功能;
+			setInterval(function(){
+				img.style.opacity = 1;  //图片显示
+			},500)
+		})
+	</script>
+</html>
+
+<script>
+	var x = {'1':y,'2':z}
+	var y = function(){console.log(4)}
+	function z(){console.log(3)};
+</script>
+
+<script>
+	function B(){
+		var A = [1,2,3];
+		function T(A){
+			var clear = function(){
+				var x = 0;
+				for(var i in A){
+					x += A[i];
+				}
+				return x;
+			}
+			return clear;
+	   }
+	   clear = T(A);
+	}
+	var clear;
+	B();
+	console.log(clear());
+</script>

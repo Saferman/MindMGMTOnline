@@ -1,0 +1,91 @@
+._F_F_src_components_App_module__App {
+  text-align: center;
+}
+
+._F_F_src_components_App_module__AppHeader {
+  background-color: #00BFFF;
+  height: 150px;
+  padding: 20px;
+  color: white;
+  vertical-align: middle;
+}
+
+._F_F_src_components_App_module__GameTitle{
+  font-size: 60px;
+  letter-spacing:8px;
+  vertical-align:middle; 
+}
+
+._F_F_src_components_App_module__AppTitle {
+  font-size: 1.5em;
+}
+
+._F_F_src_components_App_module__introduction{
+  font-size: 18px;margin-top: 40px;font-family: 'Lucida Calligraphy', cursive, serif, sans-serif;
+}
+
+._F_F_src_components_App_module__roomIntro{
+  font-size: 18px;margin-top: 20px;margin-bottom: 40px;
+}#_F_F_src_common_NotFound__scene-defaultpage-demo-basic {
+  position:relative;
+  height:500px;
+}
+._F_F_src_common_NotFound__fillErrorDemo {
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%);
+    width:684px;
+    height:220px;
+}
+._F_F_src_common_NotFound__fillErrorDemo ._F_F_src_common_NotFound__errorLeft {
+  float:left;
+  width:220px;
+  height:220px;
+}
+._F_F_src_common_NotFound__fillErrorDemo ._F_F_src_common_NotFound__errorLeft ._F_F_src_common_NotFound__kuma-empty-data-icon{
+  height:220px;
+  width:220px;
+}
+._F_F_src_common_NotFound__fillErrorDemo ._F_F_src_common_NotFound__errorLeft ._F_F_src_common_NotFound__kuma-empty-data-content{
+  display:none;
+}
+._F_F_src_common_NotFound__fillErrorDemo ._F_F_src_common_NotFound__errorRight {
+  float:right;
+  display:table;
+  width:400px;
+  height:100%;
+
+}
+._F_F_src_common_NotFound__fillErrorDemo ._F_F_src_common_NotFound__errorRight ._F_F_src_common_NotFound__tips{
+  display:table-cell;
+  vertical-align:middle;
+  margin-right:64px;
+  width:400px;
+}
+._F_F_src_common_NotFound__fillErrorDemo ._F_F_src_common_NotFound__errorRight ._F_F_src_common_NotFound__tipsTitle {
+  margin-bottom:28px;
+  line-height:32px;
+  font-size:32px;
+  color:rgba(31,56,88,1);
+  letter-spacing:0;
+}
+._F_F_src_common_NotFound__fillErrorDemo ._F_F_src_common_NotFound__errorRight ._F_F_src_common_NotFound__errorRips{
+  line-height:22px;
+  font-size:14px;
+  letter-spacing:0;
+  color: rgba(-2147483648,26,-2147483648,0.60);
+}
+._F_F_src_common_NotFound__fillErrorDemo ._F_F_src_common_NotFound__errorRight ._F_F_src_common_NotFound__errorButtons{
+  margin-top:28px;
+}
+._F_F_src_common_NotFound__fillErrorDemo ._F_F_src_common_NotFound__errorButtons button{
+  margin-right:12px;
+}
+._F_F_src_common_NotFound__kuma-button span {
+  display:inline-block;
+  line-height:12px;
+}
+._F_F_src_common_NotFound__kuma-empty-data-icon {
+  background-size: cover;
+}

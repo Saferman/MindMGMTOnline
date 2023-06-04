@@ -1,0 +1,383 @@
+
+.timeline-arrow {
+  top: 89px;
+  left: 149px;
+  width: auto;
+  height: 984px;
+  position: absolute;
+}
+/* 只控制时间轴标题和时间数字 */
+.timelinetext{
+  font-size: 25px;
+}
+.line-text {
+  top: 40px;
+  left: 140px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: normal;
+  
+}
+.line-rectangle1 {
+  top: 145px;
+  left: 156px;
+  width: 34px;
+  height: 34px;
+  position: absolute;
+  border-color: red;
+  border-style: solid;
+  border-width: 5px;
+  background: white;
+}
+.line-rectangle2 {
+  top: 292px;
+  left: 156px;
+  width: 34px;
+  height: 34px;
+  position: absolute;
+  border-color: red;
+  border-style: solid;
+  border-width: 5px;
+  background: white;
+}
+.line-rectangle3 {
+  top: 439px;
+  left: 156px;
+  width: 34px;
+  height: 34px;
+  position: absolute;
+  border-color: red;
+  border-style: solid;
+  border-width: 5px;
+  background: white;
+}
+.line-rectangle4 {
+  top: 586px;
+  left: 156px;
+  width: 34px;
+  height: 34px;
+  position: absolute;
+  border-color: red;
+  border-style: solid;
+  border-width: 5px;
+  background: white;
+}
+.line-rectangle5 {
+  top: 733px;
+  left: 156px;
+  width: 34px;
+  height: 34px;
+  position: absolute;
+  border-color: red;
+  border-style: solid;
+  border-width: 5px;
+  background: white;
+}
+.line-rectangle6 {
+  top: 880px;
+  left: 156px;
+  width: 34px;
+  height: 34px;
+  position: absolute;
+  border-color: red;
+  border-style: solid;
+  border-width: 5px;
+  background: white;
+}
+.line-ellipse1 {
+  top: 218px;
+  left: 155px;
+  width: 34px;
+  height: 34px;
+  position: absolute;
+  border-color: gray;
+  border-style: solid;
+  border-width: 5px;
+  background: white;
+}
+.line-ellipse2 {
+  top: 365px;
+  left: 155px;
+  width: 34px;
+  height: 34px;
+  position: absolute;
+  border-color: gray;
+  border-style: solid;
+  border-width: 5px;
+  background: white;
+}
+.line-ellipse3 {
+  top: 512px;
+  left: 155px;
+  width: 34px;
+  height: 34px;
+  position: absolute;
+  border-color: gray;
+  border-style: solid;
+  border-width: 5px;
+  background: white;
+}
+.line-ellipse4 {
+  top: 659px;
+  left: 155px;
+  width: 34px;
+  height: 34px;
+  position: absolute;
+  border-color: gray;
+  border-style: solid;
+  border-width: 5px;
+  background: white;
+}
+.line-ellipse5 {
+  top: 806px;
+  left: 155px;
+  width: 34px;
+  height: 34px;
+  position: absolute;
+  border-color: gray;
+  border-style: solid;
+  border-width: 5px;
+  background: white;
+}
+.line-ellipse6 {
+  top: 953px;
+  left: 155px;
+  width: 34px;
+  height: 34px;
+  position: absolute;
+  border-color: gray;
+  border-style: solid;
+  border-width: 5px;
+  background: white;
+}
+
+.line-text02 {
+  top: 145px;
+  left: 207px;
+  color: rgba(0, 0, 0, 1);
+  width: 137px;
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: normal;
+}
+.line-text04 {
+  top: 221px;
+  left: 205px;
+  color: rgba(0, 0, 0, 1);
+  width: 137px;
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: normal;
+}
+.line-text06 {
+  top: 292px;
+  left: 207px;
+  color: rgba(0, 0, 0, 1);
+  width: 137px;
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: normal;
+}
+.line-text08 {
+  top: 368px;
+  left: 207px;
+  color: rgba(0, 0, 0, 1);
+  width: 137px;
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: normal;
+}
+.line-text10 {
+  top: 439px;
+  left: 207px;
+  color: rgba(0, 0, 0, 1);
+  width: 137px;
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: normal;
+}
+.line-text12 {
+  top: 515px;
+  left: 207px;
+  color: rgba(0, 0, 0, 1);
+  width: 137px;
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: normal;
+}
+.line-text14 {
+  top: 586px;
+  left: 207px;
+  color: rgba(0, 0, 0, 1);
+  width: 137px;
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: normal;
+}
+.line-text16 {
+  top: 662px;
+  left: 207px;
+  color: rgba(0, 0, 0, 1);
+  width: 137px;
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: normal;
+}
+.line-text18 {
+  top: 733px;
+  left: 207px;
+  color: rgba(0, 0, 0, 1);
+  width: 137px;
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: normal;
+}
+.line-text20 {
+  top: 809px;
+  left: 207px;
+  color: rgba(0, 0, 0, 1);
+  width: 137px;
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: normal;
+}
+.line-text22 {
+  top: 880px;
+  left: 207px;
+  color: rgba(0, 0, 0, 1);
+  width: 137px;
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: normal;
+}
+.line-text24 {
+  top: 951px;
+  left: 207px;
+  color: rgba(0, 0, 0, 1);
+  width: 137px;
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: normal;
+}
+.line-text26 {
+  top: 138px;
+  left: 37px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: normal;
+}
+.line-text31 {
+  top: 212px;
+  left: 37px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: normal;
+}
+.line-text36 {
+  top: 285px;
+  left: 37px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: normal;
+}
+.line-text41 {
+  top: 359px;
+  left: 37px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: normal;
+}
+.line-text46 {
+  top: 432px;
+  left: 37px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: normal;
+}
+.line-text51 {
+  top: 505px;
+  left: 36px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: normal;
+}
+.line-text56 {
+  top: 578px;
+  left: 37px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: normal;
+}
+.line-text61 {
+  top: 651px;
+  left: 36px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: normal;
+}
+.line-text66 {
+  top: 724px;
+  left: 36px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: normal;
+}
+.line-text71 {
+  top: 797px;
+  left: 36px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: normal;
+}
+.line-text76 {
+  top: 870px;
+  left: 36px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: normal;
+}
+.line-text81 {
+  top: 943px;
+  left: 36px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: normal;
+}

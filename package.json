@@ -1,0 +1,22 @@
+{
+  "name": "mind_mgmt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx nodemon ./server.js",
+    "deploy": "node ./server.js",
+    "obfu": "npx javascript-obfuscator ./js/"
+  },
+  "author": "saferman",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "node-schedule": "^2.1.1",
+    "nodemon": "^2.0.22",
+    "socket.io": "^4.5.3"
+  },
+  "devDependencies": {
+    "javascript-obfuscator": "^4.0.0"
+  }
+}

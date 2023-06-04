@@ -1,0 +1,131 @@
+type，字典是content字段的
+updateItem
+{
+'divNum':div_num,
+'itemName':item_name
+}
+
+updateThing
+{
+    'imgClassIndex':img_class_index,
+    'thingName':new_thing_name
+}
+
+updatePartnerThing
+{
+    'rmThing':thing_name_array;
+    'setThing':thing_name_array
+}
+
+updateTimeAxis
+{'nowTime':now_time,
+    'accumulatedSuccessTask':accumulated_success_task,
+    'useSkillThisTurn':use_skill_this_turn}
+
+
+都需要通过content获取{}
+enableAgent/disableAgent
+{'agentName':last_action_agents[i]}
+
+SynDisplay("rmFootPrint",{'divNum':msg.divNum},'');
+
+经验，显示层和逻辑层没分离绝对有问题，通信层和逻辑层，也需要分离
+另外，name2thing thign2name这种东西越少越好，操。状态变量只在对应的处理脚本存放
+
+修改 partner 额外物品显示逻辑！ 最好把showPartner也给替换了
+
+具体的tag还是改用id标识的   
+
+写特工行动回合逻辑的时候，因为其他操作封装的好一下就看出了自己函数、handler的递归可用特性，能够多次递归/调用执行
+
+如何快速对之后的阶段进行调试
+
+jquery 和 bootstrap 教程
+
+Dialod样式：
+http://jsfiddle.net/robschmuecker/9z2ag/1/
+https://www.jquery-az.com/jquery/demo.php?ex=1.0_1
+
+应该让所有给用户显示的操作记录对应的状态变量，需要获取用get接口返回
+
+问题如果招募者已经移动过，标记放在了已有足迹上会怎么样
+
+有特工的位置不能揭示
+
+偶数时间点使用了技能也需要显示，地图不清晰
+
+招募者还可用的接头物品在地图可视化标注
+
+Dusty技能增强
+审问后可以推离超凡者
+
+Meru技能用完不能跳过
+Dusty揭示后不能用技能
+招募必须显示次数
+Herry 技能要显示出来
+
+特工需要辅助提示
+
+优化取消操作体验
+
+lastAction还是应该改为historyAction
+
+招募者行动的时候最后位置会闪烁
+
+右上角消息提示
+移动有动画
+地图沉底浮悬
+
+刷新可以冲重新开始，obstacle不要重复添加
+obstacle优化图标
+回车可以代替confirm
+闪烁实践可以同步
+设置Debug无需交互模式
+Cancel回退太关键了
+
+Dialog需要close按钮
+候选特工选择后其他的要停止
+右侧按钮以灰色表示做不了，不要采用不显示的方式
+按钮浮悬文字mouseover
+按钮右侧显示人物大头像
+地图人物大头显示mouseover 
+初始设置的时候需要弹窗
+
+dialog op接口统一
+
+特工移动按钮去除，和其他特殊能力分开
+招募者、超凡者都需要cancel回退
+autoShowItem需要进场和出场特效   //关键
+https://codepen.io/yochans/pen/MWEOwNJ 设置动画
+
+###实现移动动画特效的相关链接
+https://medium.com/front-end-weekly/css-animation-events-in-javascript-d2bfe702636d
+https://stackoverflow.com/questions/65134802/how-do-i-change-keyframes-using-js
+https://javascript.info/css-animations
+https://codepen.io/yochans/pen/MWEOwNJ
+https://www.runoob.com/cssref/css3-pr-animation-keyframes.html
+
+简单做法：https://greensock.com/forums/topic/26541-diagonal-movement-with-bounce/
+https://www.w3school.com.cn/cssref/pr_class_visibility.asp  应该用这个值而不是display
+
+
+两个超凡者最多刷一个
+一个格子最多招募一个
+五点不包括小弟
+七点包括
+招募者被询问的东西最好也可视化一下
+先进的是招募者
+招募者图层在最下面合适一些
+加入时间限制
+左侧时间条显示问题很大
+
+bill推超凡者可以到一个格子
+特工方需要辅助插件~
+增加游戏的教学模式，开发新的模式
+
+图片没加载导致画面显示问题
+
+无路可走会让对方掉线
+招募者需要特工行动日志，特工需要物品排除日志
+
+老头技能会被阻挡！

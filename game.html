@@ -1,0 +1,429 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>心灵特工Online</title>
+  <!-- jquery1.10 -->
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css">
+  <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="//code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
+  <!-- Bootstrap4 -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
+  </script>
+  <link rel="stylesheet" href="layout.css">
+  <link rel="stylesheet" href="map.css">  
+  <link rel="stylesheet" href="line.css">
+</head>
+
+<body >
+  <!-- <div id="logo">心灵特工电子版 By Saferman</div> -->
+  <!-- 如果使用container，特工的操作按钮无法显示在右边 -->
+  <div class="container-fluid">
+    <div class="row clearfix">
+      <div class="col-sm-2 col-md-2 col-lg-2 col-xs-2 column">
+        <!-- 时间轴三列，架构参考https://blog.51cto.com/u_15315508/5249440 -->
+        <div >
+          <img
+            alt="一根时间线"
+            src="img/arrow.svg"
+            class="timeline-arrow"
+          />
+          <span class="line-text timelinetext"><span>时间轴</span></span>
+
+          <div class="line-rectangle1 circle1"></div>
+          <div class="line-rectangle2 circle3"></div>
+          <div class="line-rectangle3 circle5"></div>
+          <div class="line-rectangle4 circle7"></div>
+          <div class="line-rectangle5 circle9"></div>
+          <div class="line-rectangle6 circle11"></div>
+            
+          <div class="line-ellipse1 circle2"></div>
+          <div class="line-ellipse2 circle4"></div>
+          <div class="line-ellipse3 circle6"></div>
+          <div class="line-ellipse4 circle8"></div>
+          <div class="line-ellipse5 circle10"></div>
+          <div class="line-ellipse6 circle12"></div>
+          
+
+          <span class="line-text02 timelinetext"><span>1:00-5:00</span></span>
+          <span class="line-text04 timelinetext"><span>6:00</span></span>
+          <span class="line-text06 timelinetext"><span>7:00</span></span>
+          <span class="line-text08 timelinetext"><span>8:00</span></span>
+          <span class="line-text10 timelinetext"><span>9:00</span></span>
+          <span class="line-text12 timelinetext"><span>10:00</span></span>
+          <span class="line-text14 timelinetext"><span>11:00</span></span>
+          <span class="line-text16 timelinetext"><span>12:00</span></span>
+          <span class="line-text18 timelinetext"><span>13:00</span></span>
+          <span class="line-text20 timelinetext"><span>14:00</span></span>
+          <span class="line-text22 timelinetext"><span>15:00</span></span>
+          <span class="line-text24 timelinetext"><span>16:00</span></span>
+
+          <span class="line-text26 小点的字体4">
+            <span>
+              <span class="timeline-common-description1"></span>
+              <br />
+              <span class="timeline-task-process1"></span>
+              <br />
+              <span class="timeline-skill-status1"></span>
+            </span>
+          </span>
+          <span class="line-text31 小点的字体4">
+            <span>
+              <span class="timeline-common-description2"></span>
+              <br />
+              <span class="timeline-task-process2"></span>
+              <br />
+              <span class="timeline-skill-status2"></span>
+            </span>
+          </span>
+          <span class="line-text36 小点的字体4">
+            <span>
+              <span class="timeline-common-description2"></span>
+              <br />
+              <span class="timeline-task-process2"></span>
+              <br />
+              <span class="timeline-skill-status3"></span>
+            </span>
+          </span>
+          <span class="line-text41 小点的字体4">
+            <span>
+              <span class="timeline-common-description4"></span>
+              <br />
+              <span class="timeline-task-process4"></span>
+              <br />
+              <span class="timeline-skill-status4"></span>
+            </span>
+          </span>
+          <span class="line-text46 小点的字体4">
+            <span>
+              <span class="timeline-common-description5"></span>
+              <br />
+              <span class="timeline-task-process5"></span>
+              <br />
+              <span class="timeline-skill-status5"></span>
+            </span>
+          </span>
+          <span class="line-text51 小点的字体4">
+            <span>
+              <span class="timeline-common-description6"></span>
+              <br />
+              <span class="timeline-task-process6"></span>
+              <br />
+              <span class="timeline-skill-status6"></span>
+            </span>
+          </span>
+          <span class="line-text56 小点的字体4">
+            <span>
+              <span class="timeline-common-description7"></span>
+              <br />
+              <span class="timeline-task-process7"></span>
+              <br />
+              <span class="timeline-skill-status7"></span>
+            </span>
+          </span>
+          <span class="line-text61 小点的字体4">
+            <span>
+              <span class="timeline-common-description8"></span>
+              <br />
+              <span class="timeline-task-process8"></span>
+              <br />
+              <span class="timeline-skill-status8"></span>
+            </span>
+          </span>
+          <span class="line-text66 小点的字体4">
+            <span>
+              <span class="timeline-common-description9"></span>
+              <br />
+              <span class="timeline-task-process9"></span>
+              <br />
+              <span class="timeline-skill-status9"></span>
+            </span>
+          </span>
+          <span class="line-text71 小点的字体4">
+            <span>
+              <span class="timeline-common-description10"></span>
+              <br />
+              <span class="timeline-task-process10"></span>
+              <br />
+              <span class="timeline-skill-status10"></span>
+            </span>
+          </span>
+          <span class="line-text76 小点的字体4">
+            <span>
+              <span class="timeline-common-description11"></span>
+              <br />
+              <span class="timeline-task-process11"></span>
+              <br />
+              <span class="timeline-skill-status11"></span>
+            </span>
+          </span>
+          <span class="line-text81 小点的字体4">
+            <span>
+              <span class="timeline-common-description12"></span>
+              <br />
+              <span class="timeline-task-process12"></span>
+              <br />
+              <span class="timeline-skill-status12"></span>
+            </span>
+          </span>
+        </div>
+        <!-- 时间轴三列结束 -->
+      </div>
+      <div class="col-sm-10 col-md-10 col-lg-10 column">
+        <div class="row clearfix">
+          <div class="col-sm-4 col-md-4 col-lg-4 column">
+            <h3 id="partner_text">同伙接头物品：</h3>
+          </div>
+          <div class="col-sm-3 col-md-3 col-lg-3 column">
+            <div class="row">
+              <div class="span6">
+                <!-- 测试：img/ship.png -->
+                <img class="extra_item1" alt="140x140" src="" style="display: none;"/>
+              </div>
+              <div class="span6">
+                <img class="extra_item2" alt="140x140" src="" style="display: none;"/>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4 col-md-4 col-lg-4 column">
+            <div id="status"></div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-12 column">
+            <div class="map">
+              <div class="div1"></div>
+              <div class="div2"></div>
+              <div class="div3"> </div>
+              <div class="div4"> </div>
+              <div class="div5"> </div>
+              <div class="div6"> </div>
+              <div class="div7"> </div>
+              <div class="div8"> </div>
+              <div class="div9"> </div>
+              <div class="div10"> </div>
+              <div class="div11"> </div>
+              <div class="div12"> </div>
+              <div class="div13"> </div>
+              <div class="div14"> </div>
+              <div class="div15"> </div>
+              <div class="div16"> </div>
+              <div class="div17"> </div>
+              <div class="div18"> </div>
+              <div class="div19"> </div>
+              <div class="div20"> </div>
+              <div class="div21"> </div>
+              <div class="div22"> </div>
+              <div class="div23"> </div>
+              <div class="div24"> </div>
+              <div class="div25"> </div>
+              <div class="div26"> </div>
+              <div class="div27"> </div>
+              <div class="div28"> </div>
+              <div class="div29"> </div>
+              <div class="div30"> </div>
+              <div class="div31"> </div>
+              <div class="div32"> </div>
+              <div class="div33"> </div>
+              <div class="div34"> </div>
+              <div class="div35"> </div>
+              <div class="div36"> </div>
+              <div class="div37"> </div>
+              <div class="div38"> </div>
+              <div class="div39"> </div>
+              <div class="div40"> </div>
+              <div class="div41"> </div>
+              <div class="div42"> </div>
+            </div>
+          </div>
+          <!-- RightSide设置了z-index -->
+          <div id="RightSide" class="span6 m-auto" >
+            <div class="row">
+              <div class="span6">
+                <div class="row "><button type="button" id="opbutton1" class="btn btn-success opbutton1"><h2>移动</h2></button></div>
+                <div class="row "><button type="button" id="opbutton2" class="btn btn-success opbutton2"><h2>询问</h2></button></div>
+                <div class="row "><button type="button" id="opbutton3" class="btn btn-success opbutton3"><h2>揭示</h2></button></div>
+                <div class="row "><button type="button" id="opbutton4" class="btn btn-success opbutton4"><h2>抓捕</h2></button></div>
+                <div class="row "><button type="button" id="opbutton5" class="btn btn-success opbutton5"><h2>技能</h2></button></div>
+                <div class="row "><button type="button" id="opbutton6" class="btn btn-success opbutton6"><h2>审问</h2></button></div>
+                <div class="row "><button type="button" id="opbutton7" class="btn btn-success opbutton7"><h2>Skip</h2></button></div>
+
+                <div class="row "><button id="cancelbutton" type="button" class="btn btn-secondar cancelbutton"><h2>Cancel</h2></button></div>
+                <div class="row "><button id="confirmbutton" type="button" class="btn btn-primary confirmbutton"><h2>Confirm</h2></button></div>
+              </div>
+              <div class="span6 m-auto">
+                <div>
+                  <img id='focusedAgent' src="">
+                </div>
+              </div>
+            </div>
+            
+            <div class="row">
+              <div class="span4">
+                <!-- 测试：img/ship.png -->
+                <img class="recruiter_item recruiter_item1" alt="140x140" src="" style="display: none;"/>
+              </div>
+              <div class="span4">
+                <img class="recruiter_item recruiter_item2" alt="140x140" src="" style="display: none;"/>
+              </div>
+              <div class="span4">
+                <!-- 测试：img/ship.png -->
+                <img class="recruiter_item recruiter_item3" alt="140x140" src="" style="display: none;"/>
+              </div>
+            </div>
+            <!-- 显示技能描述 -->
+            <div class="row"><p class="skill_description"></p></div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="row" id="logrow">
+      <div class="column">
+        <div id="log" >
+          
+      </div>
+    </div>
+  </div>
+
+  <!-- 全屏中心的弹窗框 -->
+  <div id="screen_dialog" title="">
+    <p id="screen_dialog_message"></p>
+    <p id="screen_dialog_end_prompt" style="font-size: 20px;color:gray;"></p>
+  </div>
+
+   <!-- 选择物品的消息框 -->
+  <div id="choose_thing_dialog" title="">
+  </div>
+
+<script src="js/lib.js"></script>
+
+<script>
+  // 很关键
+  function initUI(){
+    for(var i =1;i<43;i++){
+     
+      // 注意添加图层一定要添加对应的css，并增大z-index
+      // 添加layer2图层，作为候选层 <div class="layer2 layer2div1"></div>
+      // 这一层在所有层次之上
+      var new_div = document.createElement("div");
+      new_div.className = "layer2 layer2div"+i;
+      document.getElementsByClassName('div'+i)[0].appendChild(new_div);
+
+      // 添加layer3图层，作为招募者轨迹的图层，由于没有封装，这个不要轻易改动
+      var new_div = document.createElement("div");
+      new_div.className = "layer3 layer3div"+i;
+      document.getElementsByClassName('div'+i)[0].appendChild(new_div);
+
+      // 添加layer4图层，作为超凡者图标的图层
+      var new_div = document.createElement("div");
+      new_div.className = "layer4 layer4div"+i;
+      document.getElementsByClassName('div'+i)[0].appendChild(new_div);
+
+       // 原始地图放置物品的四个格子
+       var new_div = document.createElement("div");
+      new_div.id = "itemspace"; // 这个不能修改css涉及
+      // img src 测试 https://i.stack.imgur.com/GSqmw.jpg
+      new_div.innerHTML = `
+                    <div class="intbox1 playeritem">
+                      <img class="itemimg" src="" border="0" />
+                    </div>
+                    <div class="intbox2  playeritem">
+                      <img class="itemimg" src="" border="0" />
+                    </div>
+                    <div class="intbox3 playeritem">
+                      <img class="itemimg" src="" border="0" />
+                    </div>
+                    <div class="intbox4 playeritem">
+                      <img class="itemimg" src="" border="0" />
+                    </div>
+                    <div class="intbox5 playeritem">
+                      <img class="itemimg" src="" border="0" />
+                    </div>
+                    <div class="intbox6 playeritem">
+                      <img class="itemimg" src="" border="0" />
+                    </div>
+      `;
+      document.getElementsByClassName('div'+i)[0].appendChild(new_div);
+    }
+
+    var button_array = ["confirmbutton","cancelbutton","opbutton1","opbutton2","opbutton3","opbutton4","opbutton5","opbutton6","opbutton7"];
+    for(let i in button_array){
+      // console.log(button_array[i]);
+      banButton(button_array[i]);
+    }
+  }
+  initUI();
+  
+</script>
+<script src="js/display.js"></script>
+<script src="/socket.io/socket.io.js"></script>
+<script src="js/game.js"></script>
+<script src="js/logic.js"></script>
+<script>
+  // var op = new display_operation();
+  // op.toCandidate("div1");
+  // op.toCandidate("div20");
+  // op.toCandidate("div31");
+  // op.toCandidate("div42");
+  // op.showItemButton(button_idname['confirm']);
+  // op.showItem("div20",0,urlABS("./img/footprint.png"));
+  // op.showItem("div20",1,urlABS("./img/footprint.png"));
+  // op.showItem("div20",2,urlABS("./img/footprint.png"));
+  // op.showItem("div20",3,urlABS("./img/footprint.png"));
+  // op.showItem("div20",4,urlABS("./img/footprint.png"));
+  // op.showItem("div20",5,urlABS("./img/footprint.png"));
+  // op.showItem("div26",0,urlABS("./img/footprint.png"));
+  // op.showItem("div26",1,urlABS("./img/footprint.png"));
+  // op.showItem("div26",2,urlABS("./img/footprint.png"));
+  // op.showItem("div26",3,urlABS("./img/footprint.png"));
+  // op.showItem("div26",4,urlABS("./img/footprint.png"));
+  // op.showItem("div26",5,urlABS("./img/footprint.png"));
+  // op.showItem("div21",0,urlABS("./img/footprint.png"));
+  // op.showItem("div21",0,urlABS("./img/partner.png"));
+  // op.showItem("div21",1,urlABS("./img/partner.png"));
+  // op.showItem("div21",2,urlABS("./img/partner.png"));
+  // op.showItem("div21",3,urlABS("./img/partner.png"));
+  // op.showItemButton("opbutton1");
+  // op.autoShowItem(10, 'footprint');
+  // op.autoShowItem(12, 'Bill');
+  // op.autoAddFootPrint(10);
+  // op.autoAddFootPrint(11);
+  // op.autoShowItem(20,'reveal10');
+  // op.showDialog("测试标题","测试内容，你是特工，恭喜/你获得了胜利！",function(){alert("关闭了Dialog")});
+  // op.showDialog("测试标题","测试内容，你是特工，恭喜你获得了胜利！",function(){alert("关闭了Dialog")});
+  // op.showChooseThingDialog(['bird','car']);
+  // op.changeStatus("对方正在行动，请稍等...");
+  // op.putFence("div6","bottom");
+  // op.modifyIMGSRC("extra_item1",urlABS("./img/book.png"));
+  // op.modifyIMGSRC("recruiter_item",urlABS("./img/book.png"));
+  // op.showItemButton("opbutton2");
+  // op.addLog("测试");
+  // op.showTrace("layer2div10");
+  // op.showPartner("layer4div20");
+  // op.updateTimeAxis(5,3,1)
+  // op.updateTimeAxis(6,3,1)
+  // op.updateTimeAxis(7,6,1)
+  // op.updateTimeAxis(8,7,1)
+  // op.updateTimeAxis(9,10,1)
+  // op.updateTimeAxis(10,10,1)
+  // op.updateTimeAxis(11,10)
+  // op.updateTimeAxis(12,10)
+  // op.updateTimeAxis(13,10)
+  // op.updateTimeAxis(14,10)
+  // op.updateTimeAxis(15,10)
+  // op.updateTimeAxis(16,10)
+  // op.showThingNoticeDialog(['ship','bus'],'本轮招募者完成了以下物品的接头');
+  // op.updateTimeAxis(10,5)
+  // op.showDialog("测试","23333333333333333333333333333333333333333333")
+  // op.showChooseThingDialog(thing_name_array)
+  // op.showSkill("哈哈哈哈哈哈哈这是技能");
+  join(); //之后设置到进房间按钮的监听事件
+</script>
+</html>
