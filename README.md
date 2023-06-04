@@ -7,3 +7,11 @@
 [心灵特工Online](http://cuteflower.fun:8080/)
 
 如果你还有想做成联网的桌游，可以联系我~但是需要付费哈~
+
+### 使用方法
+
+```
+npm install
+npm run deploy
+```
+
